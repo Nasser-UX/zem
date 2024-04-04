@@ -1,0 +1,12 @@
+<form method="post" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>">
+    <input type="hidden" name="action" value="submit_form_data">
+    <label for="name">الاسم:</label>
+    <input type="text" name="name" id="name" required><br>
+    <label for="mobile">الموبايل:</label>
+    <input type="text" name="mobile" id="mobile" required><br>
+    <label for="address">العنوان:</label>
+    <input type="text" name="address" id="address" required><br>
+    <label for="comments">تفاصيل الحاله:</label>
+    <textarea name="comments" id="comments" required></textarea><br>
+    <input type="submit" value="Submit">
+</form>
