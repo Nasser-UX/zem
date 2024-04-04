@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #9fddbb no-repeat;
+  background: linear-gradient(331deg, #9fddbb 0%, #6aaab2 12%, #439aac 60%, #63be6a 100%) no-repeat;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  direction: rtl;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  filter: invert(1) brightness(4);
+  margin: auto;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5563;
+}
+.form-group .form-control {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background-color: #fff;
+  background-size: 16px 1em;
+  background-position: 16px 50%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.donation-section {
+  background-color: #ffffff;
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  border-radius: 30px;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.donation-section > div {
+  flex: 1 1 50%;
+}
+.donation-section .donate-form {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.donation-section .donate-img img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
